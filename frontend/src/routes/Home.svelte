@@ -9,7 +9,9 @@
   // HTML 영역의 question_list에 값이 없어서 오류가 출력된다.
   let question_list = []
 
+  // 8000으로 접속시 콘솔창에 detail not found 해결을 위한 코드
   let detail = {detail: []}
+
   let today = new Date();
   let day = ('0' + today.getDate()).slice(-2)
   let size = 10
