@@ -13,3 +13,5 @@
 # ssh -i ~/myapi.pem ubuntu@15.165.82.55
 # 이후 가상환경 진입
 # ubuntu@jm-world:~/venvs/myapi/bin$ . activate
+# FastAPI 서버 실행하기 / 꼭 프로젝트 파일에서 (venvs 파일 아님)
+# uvicorn main:app --reload --host=0.0.0.0
